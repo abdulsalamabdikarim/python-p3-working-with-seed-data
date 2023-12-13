@@ -6,7 +6,7 @@
 - Manage database tables and schemas without ever writing SQL through Alembic.
 - Use SQLAlchemy to create, read, update and delete records in a SQL database.
 
-***
+---
 
 ## Key Vocab
 
@@ -22,7 +22,7 @@
   or more target databases.
 - **Seed**: to fill a database with an initial set of data.
 
-***
+---
 
 ## Introduction
 
@@ -71,7 +71,7 @@ class Game(Base):
 
 ```
 
-***
+---
 
 ## Why Do We Need Seed Data?
 
@@ -143,7 +143,7 @@ instructions we can use:
 - Migrations: define how our tables should be set up.
 - Seeds: add data to those tables.
 
-***
+---
 
 ## Using the `seed.py` File
 
@@ -233,7 +233,7 @@ session.query(Game).count()
 # => 4
 ```
 
-***
+---
 
 ## Generating Randomized Data
 
@@ -318,7 +318,7 @@ Great! Now we've got plenty of seed data to work with, and an easy way for
 ourselves or other developers to populate the database any time we need to do
 so.
 
-***
+---
 
 ## Conclusion
 
@@ -327,7 +327,7 @@ database migrations in order for ourselves and other developers to quickly set
 up the database with sample data. We also learned how to use the Faker library
 to quickly generate randomized seed data.
 
-***
+---
 
 ## Resources
 
